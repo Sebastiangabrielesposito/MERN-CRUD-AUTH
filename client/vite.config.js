@@ -1,11 +1,11 @@
-// import { defineConfig } from 'vite'
 // import react from '@vitejs/plugin-react'
 
 // // https://vitejs.dev/config/
 // export default defineConfig({
-//   plugins: [react()],
-// })
-// import reactRefresh from '@vitejs/plugin-react-refresh';
+  //   plugins: [react()],
+  // })
+// import { defineConfig } from 'vite'
+import reactRefresh from '@vitejs/plugin-react-refresh';
 
 // https://vitejs.dev/config/
 export default {
@@ -19,13 +19,13 @@ export default {
       },
     },
   },
-  build: {
-    rollupOptions: {
-      external: ['zod'], 
-    },
-    outDir: './dist', 
-  },
-  base: '/client/',
+  // build: {
+  //   rollupOptions: {
+  //     external: ['zod'], 
+  //   },
+  //   outDir: 'dist', 
+  // },
+  // base: '/',
 };
 
 // import reactRefresh from '@vitejs/plugin-react-refresh';
@@ -46,7 +46,7 @@ export default {
 //     rollupOptions: {
 //       external: ['zod'], 
 //     },
-//     // outDir: './dist', 
+//     outDir: 'dist', 
 //   },
-//   base: '/client/',
+//   base: '/',
 // };
