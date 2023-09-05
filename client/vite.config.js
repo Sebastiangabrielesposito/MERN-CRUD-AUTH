@@ -41,4 +41,5 @@ export default {
     },
     // outDir: './dist', 
   },
+  base: '/client/',
 };
