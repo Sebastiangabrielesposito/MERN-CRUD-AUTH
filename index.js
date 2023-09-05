@@ -1,6 +1,6 @@
-import app from './app.js'
-import config from './config.js'
-import "./db.js";
+import app from './src/app.js'
+import config from './src/config.js'
+import "./src/db.js";
 import express from 'express';
 
 const PORT = config.PORT
