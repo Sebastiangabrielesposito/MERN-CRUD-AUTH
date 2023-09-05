@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import RegisterPage from "./pages/registerPage";
+import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import { AuthProvider } from "./context/AuthContext";
 import TaskPage from "./pages/TaskPage";
@@ -37,3 +37,4 @@ function app() {
   );
 }
 export default app;
+// "proxy": "http://localhost:4000/api", en json
