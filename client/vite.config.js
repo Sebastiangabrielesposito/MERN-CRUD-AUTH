@@ -37,7 +37,7 @@ export default {
   },
   build: {
     rollupOptions: {
-      external: ['zod'], // Añade 'zod' como módulo externo
+      external: ['zod'], 
     },
     outDir: './dist', 
   },
