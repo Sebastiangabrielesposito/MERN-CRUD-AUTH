@@ -19,6 +19,13 @@ export default {
       },
     },
   },
+  build: {
+    rollupOptions: {
+      external: ['zod'], 
+    },
+    // outDir: './dist', 
+  },
+  base: '/client/',
 };
 
 // import reactRefresh from '@vitejs/plugin-react-refresh';
