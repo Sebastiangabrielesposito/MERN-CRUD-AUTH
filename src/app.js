@@ -13,7 +13,7 @@ app.use(
     origin: 'https://mern-crud-auth-web.vercel.app' ,
     // 'http://127.0.0.1:5173',
     credentials: true,
-    // allowedHeaders: ["Content-Type", "Authorization"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     // exposedHeaders: ['set-cookie'],
   })
 );
