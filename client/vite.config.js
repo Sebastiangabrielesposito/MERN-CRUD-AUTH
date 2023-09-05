@@ -39,6 +39,6 @@ export default {
     rollupOptions: {
       external: ['zod'], 
     },
-    outDir: './dist', 
+    // outDir: './dist', 
   },
 };
