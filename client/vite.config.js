@@ -13,7 +13,7 @@ export default {
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:4000',
+        target: 'https://mern-crud-auth-server-ten.vercel.app/api',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
@@ -23,7 +23,7 @@ export default {
     rollupOptions: {
       external: ['zod'], 
     },
-    // outDir: './dist', 
+    outDir: './dist', 
   },
   base: '/client/',
 };
